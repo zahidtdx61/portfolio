@@ -1,7 +1,20 @@
 {% extends 'main/base.html' %}
 
 {% block content %}
-    <h1>
+{% include 'main/navbar.html' %}
+<div class="container">
+    <h1 class="center-align">
         INDEX Page
     </h1>
+</div>
+{% endblock %}
+
+{% block script %}
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let elems = document.querySelectorAll('.sidenav');
+            let options = {edge: 'left'};
+            let instances = M.Sidenav.init(elems, options);
+        });
+    </script>
 {% endblock %}
