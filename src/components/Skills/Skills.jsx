@@ -1,3 +1,4 @@
+import Heading from "../Heading/Heading";
 import Skill from "./Skill";
 import cppImage from "/c++.png";
 import cssImage from "/css.png";
@@ -38,7 +39,8 @@ const techStackImages = [
 const Skills = () => {
   return (
     <div className="max-w-screen-xl mx-auto p-4  mt-16">
-      <div className="flex flex-wrap justify-between gap-1 mt-4">
+      <Heading headingText={"SKILLS"} />
+      <div className="flex flex-wrap justify-between gap-1 mt-10">
         {techStackImages.map((image, index) => {
           return <Skill key={index} image={image} />;
         })}
