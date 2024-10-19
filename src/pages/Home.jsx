@@ -1,6 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import Part1 from "../components/Parts/Part1";
-import Part2 from "../components/Parts/Part2";
+import AboutMe from "../components/AboutMe/AboutMe";
 
 const Home = () => {
   return (
@@ -9,8 +8,7 @@ const Home = () => {
         <title>Home</title>
       </Helmet>
       <div>
-        <Part1 />
-        <Part2 />
+        <AboutMe />
       </div>
     </>
   );

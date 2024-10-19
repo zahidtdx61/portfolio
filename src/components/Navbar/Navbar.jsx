@@ -3,7 +3,7 @@ import NavbarSmDevice from "./NavbarSmDevice";
 
 const Navbar = () => {
   const routes = [
-    { name: "About me", path: "home" },
+    { name: "About me", path: "about-me" },
     { name: "Skills", path: "skills" },
     { name: "Projects", path: "projects" },
     { name: "Contact", path: "contact" },
