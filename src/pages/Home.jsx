@@ -1,4 +1,6 @@
 import { Helmet } from "react-helmet-async";
+import Part1 from "../components/Parts/Part1";
+import Part2 from "../components/Parts/Part2";
 
 const Home = () => {
   return (
@@ -6,7 +8,10 @@ const Home = () => {
       <Helmet>
         <title>Home</title>
       </Helmet>
-      <div>Home</div>
+      <div>
+        <Part1 />
+        <Part2 />
+      </div>
     </>
   );
 };
