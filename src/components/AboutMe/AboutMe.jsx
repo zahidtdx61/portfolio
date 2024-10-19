@@ -1,18 +1,19 @@
 import HeadingTypeWriter from "../HeadingTypeWriter/HeadingTypeWriter";
+import profileImage from "/profile-image.jpg";
 
 const AboutMe = () => {
   const introMsg1 = ["Hi ..."];
   const introMsg2 = ["I am"];
   const introMsg3 = ["Md. Zahidur Rahman"];
-  
+
   return (
     <div
       id="about-me"
-      className="h-screen w-full p-0 lg:max-w-screen-xl mx-auto pt-16 flex flex-col lg:flex-row"
+      className="w-full p-6 lg:p-2 lg:max-w-screen-xl mx-auto pt-20 lg:pt-24"
     >
       <div className="w-full lg:w-1/2">
         <div>
-          <div>
+          <div className="mb-16 lg:mb-8">
             <div className="text-5xl h-12">
               <HeadingTypeWriter sentences={introMsg1} />
             </div>
@@ -26,7 +27,10 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
-        <div className="mt-8 text-lg">
+      </div>
+
+      <div className="flex flex-col-reverse lg:flex-row lg:justify-between">
+        <div className="w-full lg:w-1/2 mt-8 text-lg">
           <p>
             I am an Electrical and Electronics Engineering (EEE) student with a
             deep passion for programming. My curiosity and drive to explore the
@@ -44,8 +48,17 @@ const AboutMe = () => {
             always eager to learn and grow in the world of tech.
           </p>
         </div>
+
+        <div className="w-full lg:w-1/2 flex justify-center items-center">
+          <div className="max-w-[200px] lg:max-w-[300px]">
+            <img
+              src={profileImage}
+              alt="profile-pic"
+              className="h-fit w-fit object-center rounded-md"
+            />
+          </div>
+        </div>
       </div>
-      <div className="w-full lg:w-1/2 bg-gray-400">Image</div>
     </div>
   );
 };
