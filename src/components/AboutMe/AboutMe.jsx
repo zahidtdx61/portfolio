@@ -8,9 +8,9 @@ const AboutMe = () => {
   return (
     <div
       id="about-me"
-      className="h-screen w-full lg:max-w-screen-xl mx-auto pt-16 flex flex-col lg:flex-row"
+      className="h-screen w-full p-0 lg:max-w-screen-xl mx-auto pt-16 flex flex-col lg:flex-row"
     >
-      <div className="w-1/2">
+      <div className="w-full lg:w-1/2">
         <div>
           <div>
             <div className="text-5xl h-12">
@@ -45,7 +45,7 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
-      <div className="w-1/2 bg-gray-400">Image</div>
+      <div className="w-full lg:w-1/2 bg-gray-400">Image</div>
     </div>
   );
 };
