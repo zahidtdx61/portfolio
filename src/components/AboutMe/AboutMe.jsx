@@ -1,14 +1,30 @@
+import HeadingTypeWriter from "../HeadingTypeWriter/HeadingTypeWriter";
+
 const AboutMe = () => {
+  const introMsg1 = ["Hi ..."];
+  const introMsg2 = ["I am"];
+  const introMsg3 = ["Md. Zahidur Rahman"];
+  
   return (
-    <div id="about-me" className="h-screen w-full lg:max-w-screen-xl mx-auto pt-16 flex flex-col lg:flex-row">
+    <div
+      id="about-me"
+      className="h-screen w-full lg:max-w-screen-xl mx-auto pt-16 flex flex-col lg:flex-row"
+    >
       <div className="w-1/2">
-        <div className="text-4xl">
-          Hi... &nbsp; I am <br /> Md. Zahidur Rahman
-        </div>
-        <div className="mt-8 text-xl">
-          Dedicated Full Stack developer with a passion for crafting innovative
-          web applications. Skilled in building scalable, user-friendly
-          solutions.
+        <div>
+          <div>
+            <div className="text-5xl h-12">
+              <HeadingTypeWriter sentences={introMsg1} />
+            </div>
+
+            <div className="text-5xl h-12">
+              <HeadingTypeWriter sentences={introMsg2} />
+            </div>
+
+            <div className="text-5xl h-12">
+              <HeadingTypeWriter sentences={introMsg3} />
+            </div>
+          </div>
         </div>
         <div className="mt-8 text-lg">
           <p>
@@ -29,9 +45,7 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
-      <div className="w-1/2 bg-gray-400">
-        Image
-      </div>
+      <div className="w-1/2 bg-gray-400">Image</div>
     </div>
   );
 };
