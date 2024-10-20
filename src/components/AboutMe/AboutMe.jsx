@@ -13,7 +13,7 @@ const AboutMe = () => {
     >
       <div className="w-full lg:w-1/2">
         <div>
-          <div className="mb-16 lg:mb-8">
+          <div className="mb-16 lg:mb-4">
             <div className="text-5xl h-12">
               {/* <HeadingTypeWriter sentences={introMsg1} /> */}
               Hi ...
@@ -26,6 +26,10 @@ const AboutMe = () => {
 
             <div className="text-5xl h-12">
               <HeadingTypeWriter sentences={introMsg3} />
+            </div>
+
+            <div className="text-4xl font-semibold mt-4 text-slate-700">
+              I am a Full Stack Developer
             </div>
           </div>
         </div>
