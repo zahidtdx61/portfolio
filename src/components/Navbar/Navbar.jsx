@@ -6,8 +6,9 @@ const Navbar = () => {
     { name: "About me", path: "about-me" },
     { name: "Skills", path: "skills" },
     { name: "Projects", path: "projects" },
-    { name: "Contact", path: "contact" },
+    { name: "Education", path: "education" },
     { name: "Resume", path: "resume" },
+    { name: "Contact", path: "contact" },
   ];
 
   return (
@@ -23,7 +24,7 @@ const Navbar = () => {
           return (
             <ul key={index}>
               <Link
-                className="text-xl text-blue-500 hover:border-b-[2px] hover:border-blue-500 hover:font-normal font-semibold hover:text-blue-700 cursor-pointer"
+                className="text-xl text-blue-500 hover:border-b-[2px] hover:border-blue-500 font-normal hover:font-semibold hover:text-blue-700 cursor-pointer"
                 to={route.path}
                 smooth={true}
                 duration={500}

@@ -50,7 +50,7 @@ const NavbarSmDevice = ({ routes }) => {
           return (
             <MenuItem key={index} onClick={handleCloseUserMenu}>
               <Link
-                className="text-xl text-blue-500 hover:border-b-[2px] hover:border-blue-500 hover:font-normal font-semibold hover:text-blue-700 cursor-pointer"
+                className="text-xl text-blue-500 hover:border-b-[2px] hover:border-blue-500 font-normal hover:font-semibold hover:text-blue-700 cursor-pointer"
                 to={route.path}
                 smooth={true}
                 duration={500}

@@ -38,9 +38,9 @@ const techStackImages = [
 
 const Skills = () => {
   return (
-    <div className="max-w-screen-xl mx-auto p-4  mt-16">
+    <div id="skills" className="max-w-screen-xl mx-auto p-4  mt-16">
       <Heading headingText={"SKILLS"} />
-      <div className="flex flex-wrap justify-between gap-1 mt-10">
+      <div className="flex flex-wrap justify-center lg:justify-between gap-4 lg:gap-1 mt-10">
         {techStackImages.map((image, index) => {
           return <Skill key={index} image={image} />;
         })}

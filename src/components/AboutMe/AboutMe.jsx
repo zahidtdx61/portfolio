@@ -2,8 +2,8 @@ import HeadingTypeWriter from "../HeadingTypeWriter/HeadingTypeWriter";
 import profileImage from "/profile-image.jpg";
 
 const AboutMe = () => {
-  const introMsg1 = ["Hi ..."];
-  const introMsg2 = ["I am"];
+  // const introMsg1 = ["Hi ..."];
+  // const introMsg2 = ["I am"];
   const introMsg3 = ["Md. Zahidur Rahman"];
 
   return (
@@ -15,11 +15,13 @@ const AboutMe = () => {
         <div>
           <div className="mb-16 lg:mb-8">
             <div className="text-5xl h-12">
-              <HeadingTypeWriter sentences={introMsg1} />
+              {/* <HeadingTypeWriter sentences={introMsg1} /> */}
+              Hi ...
             </div>
 
             <div className="text-5xl h-12">
-              <HeadingTypeWriter sentences={introMsg2} />
+              {/* <HeadingTypeWriter sentences={introMsg2} /> */}
+              I am
             </div>
 
             <div className="text-5xl h-12">
