@@ -28,7 +28,7 @@ const AboutMe = () => {
               <HeadingTypeWriter sentences={introMsg3} />
             </div>
 
-            <div className="text-4xl font-semibold mt-4 text-slate-700">
+            <div className="mt-12 lg:mt-4 text-4xl font-semibold text-slate-700">
               I am a Full Stack Developer
             </div>
           </div>
