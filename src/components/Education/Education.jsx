@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <div
       id="education"
-      className="max-w-screen-xl mx-auto p-4 mt-8 overflow-hidden"
+      className="max-w-screen-xl mx-auto p-4 overflow-hidden"
     >
       <Heading headingText={"EDUCATION"} />
       <div className="mt-4">

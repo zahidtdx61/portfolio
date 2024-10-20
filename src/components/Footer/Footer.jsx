@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div className='w-full bg-slate-300 p-8'>
       <div>
-        <div className="text-center text-slate-900 text-2xl">
+        <div className="text-center text-slate-900 text-2xl font-semibold">
           Md. Zahidur Rahman
         </div>
         <div className="flex gap-4 flex-wrap justify-center p-4">

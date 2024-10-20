@@ -7,7 +7,7 @@ const Resume = () => {
   return (
     <div
       id="resume"
-      className="max-w-screen-xl mx-auto p-4 mt-16 overflow-hidden"
+      className="max-w-screen-xl mx-auto p-4  overflow-hidden"
     >
       <Heading headingText={"RESUME"} />
       <div className="mt-4 w-full flex justify-center">
