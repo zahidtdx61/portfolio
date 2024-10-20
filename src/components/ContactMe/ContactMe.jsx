@@ -6,7 +6,7 @@ import ContactForm from "./ContactForm";
 
 const ContactMe = () => {
   return (
-    <div id="contact" className="max-w-screen-xl mx-auto p-4 mt-16 overflow-hidden mb-4">
+    <div id="contact" className="max-w-screen-xl mx-auto p-4 mt-8 overflow-hidden">
       <Heading headingText={"CONTACT ME"} />
       <div className="mt-8 flex flex-col md:flex-row gap-4 items-center md:items-start md:justify-between">
         <div className="flex gap-2 flex-col">

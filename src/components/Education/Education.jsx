@@ -4,11 +4,11 @@ const Education = () => {
   return (
     <div
       id="education"
-      className="max-w-screen-xl mx-auto p-4 mt-16 overflow-hidden mb-4"
+      className="max-w-screen-xl mx-auto p-4 mt-8 overflow-hidden"
     >
       <Heading headingText={"EDUCATION"} />
       <div className="mt-4">
-        <div className="bg-white shadow-lg  p-4 rounded-lg bg-slate-50">
+        <div className="shadow-lg  p-4 rounded-lg bg-slate-50">
           <div>
             <h2 className="text-xl font-bold">
               Bachelor of Science in Electrical and Electronic Engineering
