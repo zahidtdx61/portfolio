@@ -8,7 +8,7 @@ const Education = () => {
     >
       <Heading headingText={"EDUCATION"} />
       <div className="mt-4">
-        <div className="shadow-lg  p-4 rounded-lg bg-slate-50">
+        <div className="shadow-lg  p-4 rounded-lg bg-slate-50 hover:bg-slate-200">
           <div>
             <h2 className="text-xl font-bold">
               Bachelor of Science in Electrical and Electronic Engineering

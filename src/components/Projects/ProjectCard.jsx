@@ -2,12 +2,12 @@ const ProjectCard = ({ SiteDetails }) => {
   const { siteName, siteInfo, image, techStack, linkDatas } = SiteDetails;
 
   return (
-    <div className="w-full md:w-[70%} lg:w-[45%] p-4 bg-zinc-100 hover:bg-slate-100 flex flex-col shadow-md">
-      <div className="w-full p-2 h-96 mx-auto">
+    <div className="w-full md:w-[70%} lg:w-[45%] p-4 bg-zinc-100 hover:bg-slate-200 flex flex-col shadow-md">
+      <div className="w-full p-2 h-96 mx-auto overflow-hidden">
         <img
           src={image}
           alt="project"
-          className="h-full w-full object-cover object-center rounded-md"
+          className="h-full w-full object-cover object-center rounded-md hover:scale-110 transation-transform duration-500"
         />
       </div>
 
@@ -39,7 +39,6 @@ const ProjectCard = ({ SiteDetails }) => {
           </div>
         ))}
       </div>
-
     </div>
   );
 };
